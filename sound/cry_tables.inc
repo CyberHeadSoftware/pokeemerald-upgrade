@@ -913,6 +913,9 @@ gCryTable:: @ 869DCF4
 	cry Cry_Deoxys_Attack
 	cry Cry_Deoxys_Defense
 	cry Cry_Deoxys_Speed
+	cry_not Cry_Shellos
+	cry_not Cry_Gastrodon
+	cry_not Cry_Basculin
 
 	.align 2
 gCryTable2:: @ 869EF24
@@ -1828,3 +1831,6 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Deoxys_Attack
 	cry2 Cry_Deoxys_Defense
 	cry2 Cry_Deoxys_Speed
+	cry2_not Cry_Shellos
+	cry2_not Cry_Gastrodon
+	cry2_not Cry_Basculin

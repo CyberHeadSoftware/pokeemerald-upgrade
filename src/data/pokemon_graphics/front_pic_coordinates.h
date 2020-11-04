@@ -4639,4 +4639,19 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x88,
         .y_offset = 0,
     },
+    [SPECIES_SHELLOS_WEST] =
+    {
+        .size = 0x66,
+        .y_offset = 13,
+    },
+    [SPECIES_GASTRODON_WEST] =
+    {
+        .size = 0x65,
+        .y_offset = 8,
+    },
+    [SPECIES_BASCULIN_BLUE] =
+    {
+        .size = 0x45,
+        .y_offset = 13,
+    },	
 };

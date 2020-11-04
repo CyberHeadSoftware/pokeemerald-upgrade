@@ -912,4 +912,8 @@ const struct LevelUpMove *const gLevelUpLearnsets[NUM_SPECIES] =
     [SPECIES_DEOXYS_ATTACK] = sDeoxysAttackLevelUpLearnset,
     [SPECIES_DEOXYS_DEFENSE] = sDeoxysDefenseLevelUpLearnset,
     [SPECIES_DEOXYS_SPEED] = sDeoxysSpeedLevelUpLearnset,
+	
+    [SPECIES_SHELLOS_WEST] = sShellosLevelUpLearnset,
+    [SPECIES_GASTRODON_WEST] = sGastrodonLevelUpLearnset,
+	[SPECIES_BASCULIN_BLUE] = sBasculinLevelUpLearnset,
 };

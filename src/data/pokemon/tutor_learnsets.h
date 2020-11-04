@@ -9545,4 +9545,31 @@ static const u32 sTutorLearnsets[] =
 											| TUTOR(MOVE_SWAGGER)
 											| TUTOR(MOVE_THUNDER_WAVE)),
 
+    [SPECIES_SHELLOS_WEST]  = TUTOR_LEARNSET(TUTOR(MOVE_BODY_SLAM)
+											| TUTOR(MOVE_COUNTER)
+											| TUTOR(MOVE_ENDURE)
+											| TUTOR(MOVE_ICY_WIND)
+											| TUTOR(MOVE_MUD_SLAP)
+											| TUTOR(MOVE_SLEEP_TALK)
+											| TUTOR(MOVE_SNORE)
+											| TUTOR(MOVE_SUBSTITUTE)
+											| TUTOR(MOVE_SWAGGER)),
+
+    [SPECIES_GASTRODON_WEST]= TUTOR_LEARNSET(TUTOR(MOVE_BODY_SLAM)
+											| TUTOR(MOVE_ENDURE)
+											| TUTOR(MOVE_ICY_WIND)
+											| TUTOR(MOVE_MUD_SLAP)
+											| TUTOR(MOVE_ROCK_SLIDE)
+											| TUTOR(MOVE_SLEEP_TALK)
+											| TUTOR(MOVE_SNORE)
+											| TUTOR(MOVE_SUBSTITUTE)
+											| TUTOR(MOVE_SWAGGER)),
+
+    [SPECIES_BASCULIN_BLUE]      = TUTOR_LEARNSET(TUTOR(MOVE_DOUBLE_EDGE)
+											| TUTOR(MOVE_ICY_WIND)
+											| TUTOR(MOVE_SLEEP_TALK)
+											| TUTOR(MOVE_SNORE)
+											| TUTOR(MOVE_SUBSTITUTE)
+											| TUTOR(MOVE_SWAGGER)
+											| TUTOR(MOVE_SWIFT)),	
 };

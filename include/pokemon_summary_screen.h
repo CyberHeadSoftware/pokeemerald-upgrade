@@ -3,6 +3,10 @@
 
 #include "main.h"
 
+#define STAT_PAGE_MODE_IV 0
+#define STAT_PAGE_MODE_EV 1
+#define STAT_PAGE_MODE_STATS 2
+
 extern u8 gLastViewedMonIndex;
 
 extern const u8 *const gMoveDescriptionPointers[];

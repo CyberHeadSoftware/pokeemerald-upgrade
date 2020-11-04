@@ -1,0 +1,10 @@
+Colored Stats - https://github.com/pret/pokeemerald/wiki/Colored-stats-by-nature-in-summary-screen
+
+IV/EV Stat Display - https://www.pokecommunity.com/showpost.php?p=10161688&postcount=77
+	-EVs are red, IVs are blue
+	-Changed to a rolling page system
+	-Added L/R button icon
+
+Default options changed - https://www.pokecommunity.com/showpost.php?p=9967853&postcount=5
+
+Boxes expanded - https://github.com/cfmnephrite/pokeemerald/tree/box_expansion
