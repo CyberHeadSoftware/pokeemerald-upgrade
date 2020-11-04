@@ -7,4 +7,4 @@ IV/EV Stat Display - https://www.pokecommunity.com/showpost.php?p=10161688&postc
 
 Default options changed - https://www.pokecommunity.com/showpost.php?p=9967853&postcount=5
 
-Boxes expanded - https://github.com/cfmnephrite/pokeemerald/tree/box_expansion
+Can delete any move - https://www.pokecommunity.com/showpost.php?p=10182839&postcount=119
