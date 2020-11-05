@@ -1,6 +1,6 @@
 /*	$Id: extended.c,v 1.8 2006/12/23 11:17:49 toad32767 Exp $ */
 /*-
- * Copyright (c) 2005, 2006 by Marco Trillo <marcotrillo@gmail.com>
+ * Copyright (c) 2005, 2006 by Marco Trillo
  *
  * Permission is hereby granted, free of charge, to any
  * person obtaining a copy of this software and associated

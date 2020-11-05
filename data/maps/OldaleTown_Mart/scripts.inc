@@ -34,11 +34,6 @@ OldaleTown_Mart_Pokemart_Expanded: @ 81FC27C
 	.2byte ITEM_ANTIDOTE
 	.2byte ITEM_PARALYZE_HEAL
 	.2byte ITEM_AWAKENING
-
-	.2byte ITEM_REPEL
-	.2byte ITEM_SUPER_REPEL
-	.2byte ITEM_MAX_REPEL
-
 	.2byte ITEM_NONE
 	release
 	end
@@ -48,9 +43,6 @@ OldaleTown_Mart_EventScript_Woman:: @ 81FC28A
 	faceplayer
 	goto_if_set FLAG_ADVENTURE_STARTED, OldaleTown_Mart_EventScript_PokeBallsInStock
 	msgbox OldaleTown_Mart_Text_PokeBallsAreSoldOut, MSGBOX_DEFAULT
-
-	addmoney 0x3E8, 0x00
-	
 	release
 	end
 
