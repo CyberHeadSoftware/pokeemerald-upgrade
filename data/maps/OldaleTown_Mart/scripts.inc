@@ -34,6 +34,11 @@ OldaleTown_Mart_Pokemart_Expanded: @ 81FC27C
 	.2byte ITEM_ANTIDOTE
 	.2byte ITEM_PARALYZE_HEAL
 	.2byte ITEM_AWAKENING
+
+	.2byte ITEM_REPEL
+	.2byte ITEM_SUPER_REPEL
+	.2byte ITEM_MAX_REPEL
+
 	.2byte ITEM_NONE
 	release
 	end
@@ -43,6 +48,9 @@ OldaleTown_Mart_EventScript_Woman:: @ 81FC28A
 	faceplayer
 	goto_if_set FLAG_ADVENTURE_STARTED, OldaleTown_Mart_EventScript_PokeBallsInStock
 	msgbox OldaleTown_Mart_Text_PokeBallsAreSoldOut, MSGBOX_DEFAULT
+
+	addmoney 0x3E8, 0x00
+	
 	release
 	end
 
@@ -61,8 +69,7 @@ OldaleTown_Mart_Text_PokeBallsAreSoldOut: @ 81FC2B2
 
 OldaleTown_Mart_Text_ImGoingToBuyPokeBalls: @ 81FC2F3
 	.string "I'm going to buy a bunch of POKé BALLS\n"
-	.string "and catch a bunch of POKéMON!\p"
-	.string	"Have some money!$"
+	.string "and catch a bunch of POKéMON!$"
 
 OldaleTown_Mart_Text_RestoreHPWithPotion: @ 81FC338
 	.string "If a POKéMON gets hurt and loses its HP\n"

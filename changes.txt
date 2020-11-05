@@ -13,3 +13,4 @@ Reusable TMs - https://www.pokecommunity.com/showpost.php?p=9980343&postcount=7
 
 Can only buy TM/HM once - https://github.com/LOuroboros/pokeemerald/commit/2e6af4e1c4a55e100882d0ccb009d91cef8c0259
 
+B/W Repel System - https://www.pokecommunity.com/showpost.php?p=9986048&postcount=9
