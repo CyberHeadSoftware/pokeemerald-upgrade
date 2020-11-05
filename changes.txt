@@ -7,4 +7,9 @@ IV/EV Stat Display - https://www.pokecommunity.com/showpost.php?p=10161688&postc
 
 Default options changed - https://www.pokecommunity.com/showpost.php?p=9967853&postcount=5
 
-Can delete any move - https://www.pokecommunity.com/showpost.php?p=10182839&postcount=119
+Can unlearn any attack - https://www.pokecommunity.com/showpost.php?p=10182839&postcount=119
+
+Reusable TMs - https://www.pokecommunity.com/showpost.php?p=9980343&postcount=7
+
+Can only buy TM/HM once - https://github.com/LOuroboros/pokeemerald/commit/2e6af4e1c4a55e100882d0ccb009d91cef8c0259
+

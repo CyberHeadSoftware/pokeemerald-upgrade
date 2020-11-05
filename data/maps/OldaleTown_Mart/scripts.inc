@@ -61,7 +61,8 @@ OldaleTown_Mart_Text_PokeBallsAreSoldOut: @ 81FC2B2
 
 OldaleTown_Mart_Text_ImGoingToBuyPokeBalls: @ 81FC2F3
 	.string "I'm going to buy a bunch of POKé BALLS\n"
-	.string "and catch a bunch of POKéMON!$"
+	.string "and catch a bunch of POKéMON!\p"
+	.string	"Have some money!$"
 
 OldaleTown_Mart_Text_RestoreHPWithPotion: @ 81FC338
 	.string "If a POKéMON gets hurt and loses its HP\n"
