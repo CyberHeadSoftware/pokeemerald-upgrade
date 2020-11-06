@@ -1848,6 +1848,7 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
     u8 fixedIV;
     s32 i, j;
     u8 monsCount;
+    bool8 customBall;
 
     if (trainerNum == TRAINER_SECRET_BASE)
         return 0;
@@ -1873,7 +1874,7 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
 
         for (i = 0; i < monsCount; i++)
         {
-
+            customBall = FALSE;
             if (gTrainers[trainerNum].doubleBattle == TRUE)
                 personalityValue = 0x80;
             else if (gTrainers[trainerNum].encounterMusic_gender & 0x80)
@@ -1894,8 +1895,14 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
                     nameHash += gSpeciesNames[partyData[i].species][j];
 
                 personalityValue += nameHash << 8;
-                fixedIV = partyData[i].iv * 31 / 255;
+                fixedIV = GET_TRAINERMON_IV(partyData[i].iv_ball) * 31 / 255;
                 CreateMon(&party[i], partyData[i].species, partyData[i].lvl, fixedIV, TRUE, personalityValue, OT_ID_RANDOM_NO_SHINY, 0);
+                if (GET_TRAINERMON_BALL(partyData[i].iv_ball) != 0)
+                {
+                    u8 ball = GET_TRAINERMON_BALL(partyData[i].iv_ball);
+                    SetMonData(&party[i], MON_DATA_POKEBALL, &ball);
+                    customBall = TRUE;
+                }
                 break;
             }
             case F_TRAINER_PARTY_CUSTOM_MOVESET:
@@ -1906,13 +1913,20 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
                     nameHash += gSpeciesNames[partyData[i].species][j];
 
                 personalityValue += nameHash << 8;
-                fixedIV = partyData[i].iv * 31 / 255;
+                fixedIV = GET_TRAINERMON_IV(partyData[i].iv_ball) * 31 / 255;
                 CreateMon(&party[i], partyData[i].species, partyData[i].lvl, fixedIV, TRUE, personalityValue, OT_ID_RANDOM_NO_SHINY, 0);
 
                 for (j = 0; j < MAX_MON_MOVES; j++)
                 {
                     SetMonData(&party[i], MON_DATA_MOVE1 + j, &partyData[i].moves[j]);
                     SetMonData(&party[i], MON_DATA_PP1 + j, &gBattleMoves[partyData[i].moves[j]].pp);
+                }
+
+                if (GET_TRAINERMON_BALL(partyData[i].iv_ball) != 0)
+                {
+                    u8 ball = GET_TRAINERMON_BALL(partyData[i].iv_ball);
+                    SetMonData(&party[i], MON_DATA_POKEBALL, &ball);
+                    customBall = TRUE;
                 }
                 break;
             }
@@ -1924,10 +1938,17 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
                     nameHash += gSpeciesNames[partyData[i].species][j];
 
                 personalityValue += nameHash << 8;
-                fixedIV = partyData[i].iv * 31 / 255;
+                fixedIV = GET_TRAINERMON_IV(partyData[i].iv_ball) * 31 / 255;
                 CreateMon(&party[i], partyData[i].species, partyData[i].lvl, fixedIV, TRUE, personalityValue, OT_ID_RANDOM_NO_SHINY, 0);
 
                 SetMonData(&party[i], MON_DATA_HELD_ITEM, &partyData[i].heldItem);
+
+                if (GET_TRAINERMON_BALL(partyData[i].iv_ball) != 0)
+                {
+                    u8 ball = GET_TRAINERMON_BALL(partyData[i].iv_ball);
+                    SetMonData(&party[i], MON_DATA_POKEBALL, &ball);
+                    customBall = TRUE;
+                }
                 break;
             }
             case F_TRAINER_PARTY_CUSTOM_MOVESET | F_TRAINER_PARTY_HELD_ITEM:
@@ -1938,7 +1959,7 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
                     nameHash += gSpeciesNames[partyData[i].species][j];
 
                 personalityValue += nameHash << 8;
-                fixedIV = partyData[i].iv * 31 / 255;
+                fixedIV = GET_TRAINERMON_IV(partyData[i].iv_ball) * 31 / 255;
                 CreateMon(&party[i], partyData[i].species, partyData[i].lvl, fixedIV, TRUE, personalityValue, OT_ID_RANDOM_NO_SHINY, 0);
 
                 SetMonData(&party[i], MON_DATA_HELD_ITEM, &partyData[i].heldItem);
@@ -1948,16 +1969,26 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
                     SetMonData(&party[i], MON_DATA_MOVE1 + j, &partyData[i].moves[j]);
                     SetMonData(&party[i], MON_DATA_PP1 + j, &gBattleMoves[partyData[i].moves[j]].pp);
                 }
+
+                if (GET_TRAINERMON_BALL(partyData[i].iv_ball) != 0)
+                {
+                    u8 ball = GET_TRAINERMON_BALL(partyData[i].iv_ball);
+                    SetMonData(&party[i], MON_DATA_POKEBALL, &ball);
+                    customBall = TRUE;
+                }
                 break;
             }
             }
 
-            for (j = 0; gTrainerBallTable[j].classId != 0xFF; j++)
+            if (customBall != TRUE)
             {
-                if (gTrainerBallTable[j].classId == gTrainers[trainerNum].trainerClass)
-                    break;
+                for (j = 0; gTrainerBallTable[j].classId != 0xFF; j++)
+                {
+                    if (gTrainerBallTable[j].classId == gTrainers[trainerNum].trainerClass)
+                        break;
+                }
+                SetMonData(&party[i], MON_DATA_POKEBALL, &gTrainerBallTable[j].Ball);
             }
-            SetMonData(&party[i], MON_DATA_POKEBALL, &gTrainerBallTable[j].Ball);
         }
 
         gBattleTypeFlags |= gTrainers[trainerNum].doubleBattle;

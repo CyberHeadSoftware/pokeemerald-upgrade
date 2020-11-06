@@ -3032,14 +3032,14 @@ static void FillPartnerParty(u16 trainerId)
             {
                 const struct TrainerMonNoItemDefaultMoves *partyData = gTrainers[trainerId - TRAINER_CUSTOM_PARTNER].party.NoItemDefaultMoves;
 
-                CreateMon(&gPlayerParty[i + 3], partyData[i].species, partyData[i].lvl, partyData[i].iv * 31 / 255, TRUE, j, TRUE, otID);
+                CreateMon(&gPlayerParty[i + 3], partyData[i].species, partyData[i].lvl, GET_TRAINERMON_IV(partyData[i].iv_ball) * 31 / 255, TRUE, j, TRUE, otID);
                 break;
             }
             case F_TRAINER_PARTY_CUSTOM_MOVESET:
             {
                 const struct TrainerMonNoItemCustomMoves *partyData = gTrainers[trainerId - TRAINER_CUSTOM_PARTNER].party.NoItemCustomMoves;
 
-                CreateMon(&gPlayerParty[i + 3], partyData[i].species, partyData[i].lvl, partyData[i].iv * 31 / 255, TRUE, j, TRUE, otID);
+                CreateMon(&gPlayerParty[i + 3], partyData[i].species, partyData[i].lvl, GET_TRAINERMON_IV(partyData[i].iv_ball) * 31 / 255, TRUE, j, TRUE, otID);
 
                 for (j = 0; j < 4; j++)
                 {
@@ -3052,7 +3052,7 @@ static void FillPartnerParty(u16 trainerId)
             {
                 const struct TrainerMonItemDefaultMoves *partyData = gTrainers[trainerId - TRAINER_CUSTOM_PARTNER].party.ItemDefaultMoves;
 
-                CreateMon(&gPlayerParty[i + 3], partyData[i].species, partyData[i].lvl, partyData[i].iv * 31 / 255, TRUE, j, TRUE, otID);
+                CreateMon(&gPlayerParty[i + 3], partyData[i].species, partyData[i].lvl, GET_TRAINERMON_IV(partyData[i].iv_ball) * 31 / 255, TRUE, j, TRUE, otID);
 
                 SetMonData(&gPlayerParty[i + 3], MON_DATA_HELD_ITEM, &partyData[i].heldItem);
                 break;
@@ -3061,7 +3061,7 @@ static void FillPartnerParty(u16 trainerId)
             {
                 const struct TrainerMonItemCustomMoves *partyData = gTrainers[trainerId - TRAINER_CUSTOM_PARTNER].party.ItemCustomMoves;
 
-                CreateMon(&gPlayerParty[i + 3], partyData[i].species, partyData[i].lvl, partyData[i].iv * 31 / 255, TRUE, j, TRUE, otID);
+                CreateMon(&gPlayerParty[i + 3], partyData[i].species, partyData[i].lvl, GET_TRAINERMON_IV(partyData[i].iv_ball) * 31 / 255, TRUE, j, TRUE, otID);
 
                 SetMonData(&gPlayerParty[i + 3], MON_DATA_HELD_ITEM, &partyData[i].heldItem);
 

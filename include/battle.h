@@ -53,6 +53,9 @@
 
 #define BATTLE_BUFFER_LINK_SIZE 0x1000
 
+#define GET_TRAINERMON_IV(trainermon)       (trainermon &  0xFF)
+#define GET_TRAINERMON_BALL(trainermon)     (trainermon >> 8)
+
 struct ResourceFlags
 {
     u32 flags[4];
