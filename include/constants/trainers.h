@@ -352,6 +352,10 @@
 #define TRAINER_CLASS_PYRAMID_KING   0x40
 #define TRAINER_CLASS_RS_PROTAG      0x41
 
+#define TRAINER_CLASS_END 			 0x42
+#define NUM_TRAINER_CLASSES			 TRAINER_CLASS_END - TRAINER_CLASS_PKMN_TRAINER_1
+
+
 #define TRAINER_ENCOUNTER_MUSIC_MALE         0 // standard male encounter music
 #define TRAINER_ENCOUNTER_MUSIC_FEMALE       1 // standard female encounter music
 #define TRAINER_ENCOUNTER_MUSIC_GIRL         2 // used for male Tubers and Young Couples too
