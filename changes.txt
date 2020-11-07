@@ -26,3 +26,5 @@ Trainer classes each use their own pokeball - https://www.pokecommunity.com/show
 	-Fixed compatibility
 	
 Added Move option to held item menu - https://www.pokecommunity.com/showpost.php?p=10120157&postcount=43
+
+Added Nickname option to party menu - https://www.pokecommunity.com/showpost.php?p=10120389&postcount=44
