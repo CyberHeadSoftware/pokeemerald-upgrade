@@ -29,3 +29,5 @@ Added Move option to held item menu - https://www.pokecommunity.com/showpost.php
 
 Added Nickname option to party menu - https://www.pokecommunity.com/showpost.php?p=10120389&postcount=44
 	-Name rater in Slateport only comments on name, doesn't offer to change it
+
+Changed shiny chance to 1/4096 (16/65536)
