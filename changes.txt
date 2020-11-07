@@ -31,3 +31,5 @@ Added Nickname option to party menu - https://www.pokecommunity.com/showpost.php
 	-Name rater in Slateport only comments on name, doesn't offer to change it
 
 Changed shiny chance to 1/4096 (16/65536)
+
+Added gen 6 exp share system - https://github.com/LOuroboros/pokeemerald/commit/13214442ccbb1cd7730ded9c33dc37ef822af9e8
