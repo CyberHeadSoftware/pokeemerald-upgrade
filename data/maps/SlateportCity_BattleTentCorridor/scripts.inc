@@ -163,28 +163,28 @@ SlateportCity_BattleTentCorridor_Movement_AttendantExit: @ 8209068
 @ Unused
 SlateportCity_ContestHall_Text_AdviceForContests: @ 820906B
 	.string "Want a tasty little bit of advice\n"
-	.string "for CONTESTS?\p"
+	.string "for contests?\p"
 	.string "Using a certain move after another\n"
 	.string "certain kind of move sometimes gets\l"
 	.string "you extra attention.\p"
 	.string "If you know what you're doing,\n"
 	.string "you can score big in appeal.\p"
 	.string "Of course, your opponents might try\n"
-	.string "disrupting your POKéMON's showing.$"
+	.string "disrupting your pokémon's showing.$"
 
 @ Unused
 SlateportCity_ContestHall_Text_MyPapaIsContestJudge: @ 820917A
-	.string "My papa, he's a CONTEST JUDGE.\p"
+	.string "My papa, he's a contest judge.\p"
 	.string "I wonder what I should be when I\n"
-	.string "grow up, a JUDGE or a GYM LEADER?$"
+	.string "grow up, a judge or a gym leader?$"
 
 @ Unused
 SlateportCity_ContestHall_Text_ImLikeMajorlyCheesed: @ 82091DC
 	.string "Hey, man, I'm like majorly cheesed,\n"
 	.string "you know. Like, you know, I just\l"
-	.string "wanted to know why my POKéMON\l"
+	.string "wanted to know why my pokémon\l"
 	.string "never won, you know, like, hey?\p"
-	.string "So, like, I gave the JUDGE my two\n"
+	.string "So, like, I gave the judge my two\n"
 	.string "cents, you know, they're free.\p"
 	.string "And he wouldn't hear me out, like, hey!\n"
 	.string "So, like, total bummer, man!\p"
@@ -194,7 +194,7 @@ SlateportCity_ContestHall_Text_ImLikeMajorlyCheesed: @ 82091DC
 @ Unused
 SlateportCity_ContestHall_Text_ExplainTorment: @ 8209322
 	.string "That's, like, TM41, you know?\n"
-	.string "Hey, it's TORMENT, you hearing me?\p"
+	.string "Hey, it's Torment, you hearing me?\p"
 	.string "Like, it won't let the other guy\n"
 	.string "use the same move twice in a row, see?\p"
 	.string "Hey, now, you listen here, like,\n"
@@ -203,19 +203,19 @@ SlateportCity_ContestHall_Text_ExplainTorment: @ 8209322
 @ Unused
 SlateportCity_ContestHall_Text_MCStepUpTakePartInContest: @ 82093ED
 	.string "MC: Oh, my, my!\n"
-	.string "Now isn't that a dandy of a POKéMON?\p"
+	.string "Now isn't that a dandy of a pokémon?\p"
 	.string "Please! Do step right up and take\n"
-	.string "part in our splendid CONTESTS!\p"
+	.string "part in our splendid contests!\p"
 	.string "You'll do well! I'm sure of it!\n"
 	.string "My eyes have never failed me!$"
 
 @ Unused
 SlateportCity_ContestHall_Text_JudgeWouldntDoToMissContest: @ 82094A1
 	.string "JUDGE: Well, hello there!\n"
-	.string "I see that you're a TRAINER!\p"
+	.string "I see that you're a trainer!\p"
 	.string "Then, it just wouldn't do for you\n"
-	.string "to miss a POKéMON CONTEST!\p"
-	.string "Get a CONTEST PASS in VERDANTURF\n"
+	.string "to miss a Pokémon Contest!\p"
+	.string "Get a Contest Pass in VERDANTURF\n"
 	.string "CITY and enter anytime!$"
 
 @ Unused
@@ -226,7 +226,7 @@ SlateportCity_ContestHall_Text_ItsAppealTime: @ 820954E
 @ Unused
 SlateportCity_ContestHall_Text_DidntPayAttentionToAppeal: @ 8209579
 	.string "They didn't pay much attention to\n"
-	.string "my POKéMON's appeal…\p"
+	.string "my pokémon's appeal…\p"
 	.string "Humph, that JUDGE, he doesn't know\n"
 	.string "a good thing when he sees it.$"
 
@@ -238,7 +238,7 @@ SlateportCity_ContestHall_Text_RewardWithSageAdvice: @ 82095F1
 	.string "this sage advice.\p"
 	.string "If a move goes over really well,\n"
 	.string "the audience will get excited.\p"
-	.string "The POKéMON that makes its appeal\n"
+	.string "The pokémon that makes its appeal\n"
 	.string "right when everyone's excited…\p"
 	.string "Well, you'd think something good has\n"
 	.string "to happen!$"
@@ -246,7 +246,7 @@ SlateportCity_ContestHall_Text_RewardWithSageAdvice: @ 82095F1
 @ Unused
 SlateportCity_ContestHall_Text_MoreFreakedOutThanMon: @ 8209718
 	.string "I can't do this! I'm more freaked out\n"
-	.string "than my POKéMON.\p"
+	.string "than my pokémon.\p"
 	.string "I'm shivering and my heart is racing!$"
 
 @ Unused
@@ -254,30 +254,30 @@ SlateportCity_ContestHall_Text_BattleAndContestAlike: @ 8209775
 	.string "A battle and a CONTEST aren't the\n"
 	.string "same, but they are alike, too.\p"
 	.string "You need to work hard and believe\n"
-	.string "in the POKéMON you've raised.$"
+	.string "in the pokémon you've raised.$"
 
 @ Unused
 SlateportCity_ContestHall_Text_MonLooksOnTopOfGame: @ 82097F6
-	.string "That POKéMON looks like it's on top\n"
+	.string "That pokémon looks like it's on top\n"
 	.string "of its game, huh?\p"
-	.string "A POKéMON that does good in the\n"
+	.string "A pokémon that does good in the\n"
 	.string "secondary judging seems to be more\l"
 	.string "relaxed when it's doing appeals.$"
 
 @ Unused
 SlateportCity_ContestHall_Text_MyMonBetterThanThatLot: @ 8209890
 	.string "Will you look at that sorry sight?\p"
-	.string "Heh, my POKéMON's absolutely better\n"
+	.string "Heh, my pokémon's absolutely better\n"
 	.string "than that lot!$"
 
 @ Unused
 SlateportCity_ContestHall_Text_GetUrgeToMoveWithMon: @ 82098E6
 	.string "Don't you get the urge to move with\n"
-	.string "POKéMON if they're putting on an\l"
+	.string "pokémon if they're putting on an\l"
 	.string "energetic appeal?$"
 
 @ Unused
 SlateportCity_ContestHall_Text_HyperRankStage: @ 820993D
-	.string "POKéMON CONTESTS\n"
+	.string "pokémon CONTESTS\n"
 	.string "HYPER RANK STAGE!$"
 
