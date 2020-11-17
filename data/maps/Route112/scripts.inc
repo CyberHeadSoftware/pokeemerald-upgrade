@@ -116,20 +116,20 @@ Route112_Text_LeaderGoingToAwakenThing: @ 81F1F3F
 
 Route112_Text_YeahWeNeedMeteorite: @ 81F1F7A
 	.string "Sounds like it, yeah. But I heard\n"
-	.string "we need a METEORITE to do it.$"
+	.string "we need a meteorite to do it.$"
 
 Route112_Text_OhThatsWhyCrewWentToFallarbor: @ 81F1FBA
 	.string "Oh, I get it now. That's why the rest\n"
-	.string "of the crew went out to FALLARBOR.$"
+	.string "of the crew went out to Fallarbor.$"
 
 Route112_Text_CantLetAnyonePassUntilTheyreBack: @ 81F2003
 	.string "You got it. And until they come back,\n"
 	.string "we're not to let anyone pass, right.$"
 
 Route112_Text_NotEasyToGetBackToLavaridge: @ 81F204E
-	.string "Eh, I'd like to get to MAUVILLE, but if\n"
+	.string "Eh, I'd like to get to Mauville, but if\n"
 	.string "I went down these ledges, it'd be no\l"
-	.string "easy matter to get back to LAVARIDGE.$"
+	.string "easy matter to get back to Lavaridge.$"
 
 Route112_Text_MtChimneyCableCarSign: @ 81F20C1
 	.string "MT. CHIMNEY CABLE CAR\n"
@@ -137,8 +137,8 @@ Route112_Text_MtChimneyCableCarSign: @ 81F20C1
 
 Route112_Text_MtChimneySign: @ 81F20ED
 	.string "MT. CHIMNEY\p"
-	.string "“For LAVARIDGE TOWN or the summit,\n"
-	.string "please take the CABLE CAR.”$"
+	.string "“For Lavaridge Town or the summit,\n"
+	.string "please take the cable car.”$"
 
 Route112_Text_RouteSignLavaridge: @ 81F2138
 	.string "ROUTE 112\n"

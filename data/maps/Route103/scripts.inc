@@ -294,64 +294,64 @@ Route103_EventScript_Isabelle:: @ 81EC78F
 	end
 
 Route103_Text_MayRoute103Pokemon: @ 81EC7A6
-	.string "MAY: Let's see… The POKéMON found\n"
-	.string "on ROUTE 103 include…$"
+	.string "May: Let's see… The pokémon found\n"
+	.string "on Route 103 include…$"
 
 Route103_Text_MayLetsBattle: @ 81EC7DE
 	.string "Oh, hi, {PLAYER}{KUN}!\p"
 	.string "…Oh, I see, my dad gave you\n"
-	.string "a POKéMON as a gift.\p"
+	.string "a pokémon as a gift.\p"
 	.string "Since we're here, let's have a quick\n"
 	.string "battle!\p"
 	.string "I'll give you a taste of what being\n"
-	.string "a TRAINER is like.$"
+	.string "a trainer is like.$"
 
 Route103_Text_MayDefeated: @ 81EC881
 	.string "Wow! That's great!\n"
 	.string "{PLAYER}{KUN}, you're pretty good!$"
 
 Route103_Text_MayTimeToHeadBack: @ 81EC8AE
-	.string "MAY: I think I know why my dad has\n"
+	.string "May: I think I know why my dad has\n"
 	.string "an eye out for you now.\p"
-	.string "I mean, you just got that POKéMON,\n"
+	.string "I mean, you just got that pokémon,\n"
 	.string "but it already likes you.\p"
 	.string "You might be able to befriend any\n"
-	.string "kind of POKéMON easily.\p"
+	.string "kind of pokémon easily.\p"
 	.string "Well, it's time to head back to\n"
-	.string "the LAB.$"
+	.string "the lab.$"
 
 Route103_Text_BrendanRoute103Pokemon: @ 81EC989
-	.string "BRENDAN: Okay, so it's this one and\n"
-	.string "that one that live on ROUTE 103…$"
+	.string "Brendan: Okay, so it's this one and\n"
+	.string "that one that live on Route 103…$"
 
 Route103_Text_BrendanLetsBattle: @ 81EC9CE
 	.string "Hey, it's {PLAYER}!\p"
-	.string "…Oh, yeah, Dad gave you a POKéMON.\p"
+	.string "…Oh, yeah, Dad gave you a pokémon.\p"
 	.string "Since we're here, how about a little\n"
 	.string "battle?\p"
-	.string "I'll teach you what being a TRAINER's\n"
+	.string "I'll teach you what being a trainer's\n"
 	.string "about!$"
 
 Route103_Text_BrendanDefeated: @ 81ECA59
 	.string "Huh, {PLAYER}, you're not too shabby.$"
 
 Route103_Text_BrendanTimeToHeadBack: @ 81ECA79
-	.string "BRENDAN: I think I get it.\n"
+	.string "Brendan: I think I get it.\n"
 	.string "I think I know why my dad has his eye\l"
 	.string "out for you now.\p"
-	.string "Look, your POKéMON already likes you,\n"
+	.string "Look, your pokémon already likes you,\n"
 	.string "even though you just got it.\p"
 	.string "{PLAYER}, I get the feeling that you\n"
-	.string "could befriend any POKéMON with ease.\p"
-	.string "We should head back to the LAB.$"
+	.string "could befriend any pokémon with ease.\p"
+	.string "We should head back to the lab.$"
 
 Route103_Text_ShouldHaveBroughtPotion: @ 81ECB73
-	.string "My POKéMON is staggeringly tired…\n"
-	.string "I should have brought a POTION…$"
+	.string "My pokémon is staggeringly tired…\n"
+	.string "I should have brought a potion…$"
 
 Route103_Text_ShortcutToOldale: @ 81ECBB5
 	.string "If you cross the sea from here,\n"
-	.string "it'll be a shortcut to OLDALE TOWN.\p"
+	.string "it'll be a shortcut to Oldale Town.\p"
 	.string "Fufufu, that's useful, isn't it?$"
 
 Route103_Text_RouteSign: @ 81ECC1A
